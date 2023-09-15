@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: url(./images/bnb.png);
+    background-size: cover;
+
+}
+
+
+nav{
+    display: flex;
+    text-align: center;
+    position: relative;
+
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-weight: 400;
+    align-items: center;
+    margin-right: 60px;
+    position: relative;
+    right: 150px;   
+    
+}
+
+nav ul li{
+color: #FFF;
+font-family: Montserrat;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-right: 20px;
+}
+
+.logo{
+    margin-right: 450px;
+    margin-left: 100px;
+}
+
+.welcome{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 25px;
+font-weight: 30;
+font-style: oblique;
+margin-top: 130px;
+
+}
+
+.Luxury{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 55px;
+font-style: normal;
+font-weight: 550;
+margin-top: 5px;
+}
+
+.catchphrase{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 25px;
+font-style: normal;
+font-weight: 30;
+margin-top: 5px;
+}
+
+main{
+    margin-left: 100px;
+
+}
+
+ .btn{
+    background-color: #E0B973;
+    display: flex;
+    width: 11%;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 600px;
+    display: inline-flexbox;
+    padding-bottom: 10px;
+
+}
+
+.scroll{
+    margin-left: 650px;
+    margin-top: 30px;
+    text-decoration: solid;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.scroll img{
+    width: 40px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.scroll p{
+    font-family: Montserrat;
+font-size: 25px;
+font-style: normal;
+font-weight: 300;
+}
+
+.single_room_rate h1{
+text-transform: uppercase;;
+color: #14274A;
+text-align: center;
+font-family: Adobe Garamond Pro;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3px;
+margin-top: 30px;
+}
+
+.single_room_rate p{
+    text-align: center;
+}
+
+.singleroom_pic{
+    width: 100%;
+    margin-top: 40px;
+    
+}
+
+.singleroom_pic img{
+    max-width: 100%;
+    justify-content: center;
+}
+
+.singleroom_div{
+    background: #14274A;
+    color: white;
+    padding:30px 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    position: relative;
+}
+.singleroom_div img{
+    position: absolute;
+    bottom: 130%;
+    
+}
+
+.singleroom_last{
+    display: flex;
+    border: 2px solid black;
+}
+
+.plus{
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+    padding: 50px 70px;
+}
