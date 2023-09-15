@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body{
+    height: 100vh;
+    width: fit-content;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
 header{
     background: url(./images/bnb.png);
     background-size: cover;
@@ -117,7 +124,14 @@ font-style: normal;
 font-weight: 300;
 }
 
-.single_room_rate h1{
+.roomrate{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+
+.roomrate h1{
 text-transform: uppercase;;
 color: #14274A;
 text-align: center;
@@ -130,22 +144,11 @@ letter-spacing: 3px;
 margin-top: 30px;
 }
 
-.single_room_rate p{
+.roomrate p{
     text-align: center;
 }
 
-.singleroom_pic{
-    width: 100%;
-    margin-top: 40px;
-    
-}
-
-.singleroom_pic img{
-    max-width: 100%;
-    justify-content: center;
-}
-
-.singleroom_div{
+.first_div{
     background: #14274A;
     color: white;
     padding:30px 40px;
@@ -154,21 +157,53 @@ margin-top: 30px;
     font-family: sans-serif;
     font-weight: 700;
     position: relative;
+    width: 100%;
 }
-.singleroom_div img{
+.first_div img{
     position: absolute;
     bottom: 130%;
+    width: auto;
     
 }
 
-.singleroom_last{
+.last_div{
     display: flex;
     border: 2px solid black;
+    display: flex;
 }
 
 .plus{
     display: flex;
     text-align: center;
-    margin-left: 100px;
-    padding: 50px 70px;
+    margin-left: 50px;
+    padding: 30px;
+    flex: 2;
+    display: flex;
+    
+    
 }
+
+.last_div button{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 25px;
+font-style: normal;
+background-color: #E0B973;
+border: none;
+margin-right: 130px;
+margin-top: 50px;
+margin-bottom: 50px;
+width: 20%;
+flex: 1;
+}
+
+/* .room_pic{
+    height: 100vh;
+    background-size: contain;
+    padding-top: 30px;
+} */
+ 
+
+
+
+
